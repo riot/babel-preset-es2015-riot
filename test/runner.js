@@ -5,6 +5,8 @@ var compiler = require('riot-compiler'),
   preset
 
 describe('Babel parser preset', function() {
+  this.timeout(8000) // for slow pcs
+
   it('can require all the plugins', function() {
     preset = require('../')
   })
