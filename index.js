@@ -1,9 +1,4 @@
-/*
-  set prefix = 'babel-plugin-' if you load individual plugins in package.json
-*/
-var prefix = './node_modules/babel-preset-es2015/node_modules/babel-plugin-'
-
-function _r(p) { return require(prefix + p) }
+function _r(p) { return require('babel-plugin-' + p) }
 
 module.exports = {
   plugins: [
