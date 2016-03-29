@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-es2015-riot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The default riot babel preset ",
   "main": "index.js",
   "scripts": {
