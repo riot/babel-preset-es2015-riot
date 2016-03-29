@@ -1,5 +1,7 @@
 # The default riot babel preset
 
+[![Build Status](https://travis-ci.org/riot/babel-preset-es2015-riot.svg?branch=master)](https://travis-ci.org/riot/babel-preset-es2015-riot)
+
 This preset includes all the default [babel es2015 plugins](https://github.com/babel/babel/blob/master/packages/babel-preset-es2015/index.js)
 Allowing the use of the `es2015 modules` also in any riot tag
 
