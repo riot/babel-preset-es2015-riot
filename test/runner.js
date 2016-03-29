@@ -15,8 +15,8 @@ describe('Babel parser preset', function() {
     compiler.parsers.js.babel = function (js, opts, url) {
       return require('babel-core').transform(js, preset).code
     }
-    expect(compiler.compile(cat('./test/fixtures/component.tag'), {
+    expect(compiler.compile(cat('./test/tags/component.tag'), {
       type: 'babel'
-    })).to.be(cat('./test/expected/component.js'))
+    })).to.match(/riot\.tag/)
   })
 })
