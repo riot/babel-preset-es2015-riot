@@ -49,6 +49,6 @@
     "mocha": "^2.4.5",
     "moment": "^2.11.2",
     "riot-compiler": "^2.3.22",
-    "shelljs": "^0.6.0"
+    "shelljs": "^0.7.0"
   }
 }
