@@ -41,7 +41,7 @@
     "babel-plugin-transform-es2015-template-literals": "^6.6.0",
     "babel-plugin-transform-es2015-typeof-symbol": "^6.6.0",
     "babel-plugin-transform-es2015-unicode-regex": "^6.5.0",
-    "babel-plugin-transform-regenerator": "^6.6.0"
+    "babel-plugin-transform-regenerator": "^6.6.5"
   },
   "devDependencies": {
     "babel-core": "^6.7.4",
