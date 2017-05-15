@@ -1,5 +1,7 @@
 # The default riot babel preset
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/riot/babel-preset-es2015-riot.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/riot/babel-preset-es2015-riot.svg?branch=master)](https://travis-ci.org/riot/babel-preset-es2015-riot)
 
 This preset includes all the default [babel es2015 plugins](https://github.com/babel/babel/blob/master/packages/babel-preset-es2015/index.js)
