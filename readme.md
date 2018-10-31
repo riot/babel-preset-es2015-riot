@@ -27,3 +27,27 @@ If you want to use the babel helpers you must change the `.babelrc` file in this
   "plugins": [ "external-helpers-2" ]
 }
 ```
+
+# Babel 7
+
+If you are using babel 7 you don't need to use this preset at all.
+You can simply configure your `.babelrc` in this way:
+
+```js
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "targets": [
+          // wathever you need to support
+          "last 2 versions"
+        ]
+      }
+    ]
+  ]
+}
+```
+
+Remeber to install via npm the `@babel/core@7` and `@babel/preset-env@7` dependencies
